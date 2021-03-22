@@ -1,0 +1,34 @@
+
+  
+  
+  
+  <div *ngIf="usuario && !cargando ; else showLogin">
+    
+    
+    <app-menu></app-menu>
+
+    <router-outlet></router-outlet>  
+    
+
+    
+    <button type="button" class="btn btn-outline-warning" (click)="logout()">Logout</button>
+  </div>
+ 
+
+  <ng-template #showLogin>
+    <div *ngIf="cargando"  role="status">
+      
+        <div class="text-center mt-5">
+            
+          <div class="lds-hourglass"></div>
+
+          </div>
+
+
+    </div>
+
+    <app-login *ngIf="!cargando"></app-login>
+    <!-- <button  type="button" class="btn btn-outline-success" (click)="login()">Login with Google</button> -->
+  </ng-template>
+
+ 
