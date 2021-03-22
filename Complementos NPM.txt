@@ -1,0 +1,9 @@
+npm install bootstrap (En el angular.json incluí el bootstrap.min linea 31)
+npm install ngx-bootstrap --save (Para permitirnos ejecutar jquerys en angular)
+npm install firebase @angular/fire --save  ()
+npm install ngx-spinner --save
+
+
+La conexion de firebase está en src/enviroments/enviroment.ts 
+
+en el angular.module.ts importé el AngularFireModule y el enviroment en modo de pruebas
