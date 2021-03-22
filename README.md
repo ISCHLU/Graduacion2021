@@ -2,6 +2,18 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.3.
 
+## npm commands
+
+npm install bootstrap (En el angular.json incluí el bootstrap.min linea 31)
+npm install ngx-bootstrap --save (Para permitirnos ejecutar jquerys en angular)
+npm install firebase @angular/fire --save  ()
+npm install ngx-spinner --save
+
+
+La conexion de firebase está en src/enviroments/enviroment.ts 
+
+en el angular.module.ts importé el AngularFireModule y el enviroment en modo de pruebas
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
