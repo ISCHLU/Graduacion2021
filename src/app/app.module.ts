@@ -17,11 +17,13 @@ import { NgxSpinnerModule } from "ngx-spinner";
 
 import { FormsModule } from '@angular/forms';
 import { MenuComponent } from './menu/menu.component';
+import { ActividadesComponent } from './actividades/actividades.component';
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    MenuComponent
+    MenuComponent,
+    ActividadesComponent
   ],
   imports: [
     BrowserModule,

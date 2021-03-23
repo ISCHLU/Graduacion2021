@@ -9,15 +9,16 @@
          
             <body>
 
-                <div class="sidenav" style=" background-color: transparent !important;">
-                  
-                   
-                <button type="button" class="btn btn-outline-light"><img   data-toggle="tooltip" data-placement="top" title="Actividades" src="assets/actividades.png" alt=""></button>
+                <div class="sidenav" style=" background-color: transparent !important ; opacity: .5;">
+               
+                <button type="button" class="btn btn-outline-light"><img   data-toggle="tooltip" data-placement="top" title="Actividades de la ceremonia" src="assets/actividades.png" alt=""></button>
                 <button type="button" class="btn btn-outline-light"><img   data-toggle="tooltip" data-placement="top" title="Anuario" src="assets/anuario.png" alt=""></button>
                 <button type="button" class="btn btn-outline-light"><img   data-toggle="tooltip" data-placement="top" title="Invitaciones" src="assets/invitacion.png" alt=""></button>
                 <button type="button" class="btn btn-outline-light"><img  data-toggle="tooltip" data-placement="top" title="Graduados" src="assets/graduado.png" alt=""></button>       
                 <button type="button" class="btn btn-outline-light"><img   data-toggle="tooltip" data-placement="top" title="Video de la ceremonia" src="assets/grabadora.png" alt=""></button>
+                <button type="button" (click)="logout()" class="btn btn-outline-light"><img   data-toggle="tooltip" data-placement="top" title="Salir" src="assets/logout.png" alt=""></button>
                  
+                
 
 
 
@@ -28,6 +29,9 @@
                 </div>  
                 
                 </body>
+
+
+                <app-actividades></app-actividades>
 
         </div>
       </div>
