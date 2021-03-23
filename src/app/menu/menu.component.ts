@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AngularFireAuth } from '@angular/fire/auth';
 import firebase from 'firebase/app';
+import { ActividadesComponent } from '../actividades/actividades.component';
 
 
 @Component({
@@ -10,6 +11,9 @@ import firebase from 'firebase/app';
 })
 export class MenuComponent implements OnInit {
 
+  
+  txt = document.getElementById("cabecera");
+  ventanas : string = ' '
   usuario : firebase.User;
 
   constructor(private auth: AngularFireAuth) { }
@@ -25,6 +29,23 @@ export class MenuComponent implements OnInit {
 
   logout() {
     this.auth.signOut();
+  }
+  actividades() {
+    
+   
+    
+  }
+  anuario() {
+    
+  }
+  invitacion() {
+    
+  }
+  graduados() {
+    
+  }
+  video() {
+    
   }
 
 

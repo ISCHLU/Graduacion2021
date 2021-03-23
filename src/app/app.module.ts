@@ -18,12 +18,20 @@ import { NgxSpinnerModule } from "ngx-spinner";
 import { FormsModule } from '@angular/forms';
 import { MenuComponent } from './menu/menu.component';
 import { ActividadesComponent } from './actividades/actividades.component';
+import { AnuarioComponent } from './anuario/anuario.component';
+import { InvitacionesComponent } from './invitaciones/invitaciones.component';
+import { GraduadosComponent } from './graduados/graduados.component';
+import { VideoComponent } from './video/video.component';
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     MenuComponent,
-    ActividadesComponent
+    ActividadesComponent,
+    AnuarioComponent,
+    InvitacionesComponent,
+    GraduadosComponent,
+    VideoComponent
   ],
   imports: [
     BrowserModule,
